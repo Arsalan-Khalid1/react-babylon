@@ -12,7 +12,6 @@ import React, { useRef, useEffect, useState } from "react";
 import axios from "axios";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import SceneComponent from "./components/SceneComponent";
-import Skybox3D from "./components/SkyBox";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZGFyZWRlZnltZTMiLCJhIjoiY2xmZ2lxbzNrMXQ1cDNxbjF3djN3eTJkNyJ9.xEfvrZ5voQ2WKdAsGNDBvw";
